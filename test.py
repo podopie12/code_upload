@@ -309,7 +309,7 @@ def third_gui():
     # 수명에 따른 출력 구분
     if 0 <= tire_life < 0.3:
         selected_light = image_Red_light
-        selected_text = "즉시 교체를 권장드립니다."
+        selected_text = "즉시 교체를\n권장드립니다."
     elif 0.3 <= tire_life < 0.7:
         selected_light = image_Orange_light
         selected_text = "상태가 양호합니다."
